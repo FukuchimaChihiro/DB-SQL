@@ -179,6 +179,7 @@ ORDER BY
 -- 平均寿命が長い順、独立記念日が新しい順に国を表示させてください。
 SELECT
 	name,
+	life_expectancy,
 	indep_year
 FROM
 	countries
