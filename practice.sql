@@ -186,7 +186,8 @@ FROM
 WHERE
 	life_expectancy IS NOT NULL
 ORDER BY
-	indep_year DESC
+	life_expectancy DESC,
+	indep_year DESC 
 ;
 
 -- 問19
